@@ -1,0 +1,6 @@
+numpy~=1.26.4
+largestinteriorrectangle~=0.2.0
+opencv-python
+sphinx
+sphinx-rtd-theme
+ghp-import

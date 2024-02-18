@@ -1,0 +1,3 @@
+- Hada, Pratik Shankar. "Approaches for Generating 2D Shapes." UNLV Theses, Dissertations, Professional Papers, and Capstones, no. 2182, 2014, https://digitalscholarship.unlv.edu/thesesdissertations/2182.
+- Behroozi, Mehdi. "Largest Inscribed Rectangles in Geometric Convex Sets." arXiv:1905.13246v1 [cs.CG], May 29, 2019, https://arxiv.org/abs/1905.13246.
+- Chazelle, Bernard. "The Polygon Containment Problem." Advances in Computing Research, Volume 1, pages 1–33, 1983, JAI Press Inc. ISBN: 0-89232-356-6.
