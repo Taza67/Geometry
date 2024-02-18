@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometry package &mdash; Documentation Geometry </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=d1a510d7"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=d99ca74e"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="geometry.shapes package" href="geometry.shapes.html" />
+    <link rel="prev" title="geometry" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Geometry
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">geometry</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">geometry package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html">geometry.shapes package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.utilities.html">geometry.utilities package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-geometry.collection">geometry.collection module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#geometry.collection.Collection"><code class="docutils literal notranslate"><span class="pre">Collection</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-geometry.segment">geometry.segment module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#geometry.segment.Segment"><code class="docutils literal notranslate"><span class="pre">Segment</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-geometry.vertice">geometry.vertice module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#geometry.vertice.Vertice"><code class="docutils literal notranslate"><span class="pre">Vertice</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-geometry">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Geometry</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">geometry</a></li>
+      <li class="breadcrumb-item active">geometry package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/geometry.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="geometry-package">
+<h1>geometry package<a class="headerlink" href="#geometry-package" title="Link to this heading"></a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Link to this heading"></a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="geometry.shapes.html">geometry.shapes package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="geometry.shapes.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.shapes.html#module-geometry.shapes.polygon">geometry.shapes.polygon module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon"><code class="docutils literal notranslate"><span class="pre">Polygon</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.DEFAULT_RANDOM_SPACE_LENGTH"><code class="docutils literal notranslate"><span class="pre">Polygon.DEFAULT_RANDOM_SPACE_LENGTH</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.DEFAULT_RANDOM_SPACE_WIDTH"><code class="docutils literal notranslate"><span class="pre">Polygon.DEFAULT_RANDOM_SPACE_WIDTH</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.add_vertice"><code class="docutils literal notranslate"><span class="pre">Polygon.add_vertice()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.area"><code class="docutils literal notranslate"><span class="pre">Polygon.area()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.center"><code class="docutils literal notranslate"><span class="pre">Polygon.center()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.convex_hull"><code class="docutils literal notranslate"><span class="pre">Polygon.convex_hull()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.couples"><code class="docutils literal notranslate"><span class="pre">Polygon.couples()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.is_convex"><code class="docutils literal notranslate"><span class="pre">Polygon.is_convex()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.largestinteriorrectangle"><code class="docutils literal notranslate"><span class="pre">Polygon.largestinteriorrectangle()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.perimeter"><code class="docutils literal notranslate"><span class="pre">Polygon.perimeter()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.random"><code class="docutils literal notranslate"><span class="pre">Polygon.random()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.segments"><code class="docutils literal notranslate"><span class="pre">Polygon.segments()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.polygon.Polygon.simplify"><code class="docutils literal notranslate"><span class="pre">Polygon.simplify()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.shapes.html#module-geometry.shapes.rectangle">geometry.shapes.rectangle module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.rectangle.Rectangle"><code class="docutils literal notranslate"><span class="pre">Rectangle</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.rectangle.Rectangle.add_vertice"><code class="docutils literal notranslate"><span class="pre">Rectangle.add_vertice()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.rectangle.Rectangle.random"><code class="docutils literal notranslate"><span class="pre">Rectangle.random()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="geometry.shapes.html#geometry.shapes.rectangle.Rectangle.simplify"><code class="docutils literal notranslate"><span class="pre">Rectangle.simplify()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.shapes.html#module-geometry.shapes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="geometry.utilities.html">geometry.utilities package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="geometry.utilities.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.utilities.html#module-geometry.utilities.utils">geometry.utilities.utils module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="geometry.utilities.html#geometry.utilities.utils.sign"><code class="docutils literal notranslate"><span class="pre">sign()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="geometry.utilities.html#module-geometry.utilities">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-geometry.collection">
+<span id="geometry-collection-module"></span><h2>geometry.collection module<a class="headerlink" href="#module-geometry.collection" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="geometry.collection.Collection">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">geometry.collection.</span></span><span class="sig-name descname"><span class="pre">Collection</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">polygons</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.collection.Collection" title="Link to this definition"></a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Représente une collection de polygones.</p>
+<p>Cette classe permet de gérer une collection de polygones, offrant des fonctionnalités
+pour accéder aux polygones, les ajouter et les imprimer dans différents formats.</p>
+<dl class="simple">
+<dt>Attributes:</dt><dd><p>polygons (list[Polygon]): Ensemble de polygones.</p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="geometry.collection.Collection.DEFAULT_RANDOM_SPACE_LENGTH">
+<span class="sig-name descname"><span class="pre">DEFAULT_RANDOM_SPACE_LENGTH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">720.0</span></em><a class="headerlink" href="#geometry.collection.Collection.DEFAULT_RANDOM_SPACE_LENGTH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="geometry.collection.Collection.DEFAULT_RANDOM_SPACE_WIDTH">
+<span class="sig-name descname"><span class="pre">DEFAULT_RANDOM_SPACE_WIDTH</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">1280.0</span></em><a class="headerlink" href="#geometry.collection.Collection.DEFAULT_RANDOM_SPACE_WIDTH" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.collection.Collection.poly_file_print">
+<span class="sig-name descname"><span class="pre">poly_file_print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file=&lt;_io.TextIOWrapper</span> <span class="pre">name='&lt;stdout&gt;'</span> <span class="pre">mode='w'</span> <span class="pre">encoding='utf-8'&gt;</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.collection.Collection.poly_file_print" title="Link to this definition"></a></dt>
+<dd><p>Imprime la collection dans un format spécifique pour les fichiers “poly”.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>file (_io.TextIOWrapper, optional): Fichier de sortie. Par défaut à stdout.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.collection.Collection.random">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">random</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.collection.Collection.random" title="Link to this definition"></a></dt>
+<dd><p>Retourne une collection de polygones générés alétoirement.</p>
+<dl>
+<dt>Args:</dt><dd><dl>
+<dt>options (dict, optional): Options à appliquer. Defaults to None.</dt><dd><ul>
+<li><dl class="simple">
+<dt>type (int | str): Type de polygones :</dt><dd><ul class="simple">
+<li><p>“polygon” or 1 : Polygones. (default)</p></li>
+<li><p>“rectangle” or 0 : Rectangles.</p></li>
+<li><p>“simple” or 2 : Polygones.</p></li>
+<li><p>“convex” or 3 : Polygones convexes.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>count (int): Nombre de polygones à générer. (default to 3) Doit être supérieur à 0.</p></li>
+<li><dl class="simple">
+<dt>form (dict): Contraintes sur les polygones.</dt><dd><ul class="simple">
+<li><p>min_vertices_count (int): Nombre de sommets minimal. (default to 3)</p></li>
+<li><p>max_vertices_count (int): Nombre de sommets maximal. (default to 16)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>space (dict): Contraintes sur l’espace.</dt><dd><ul class="simple">
+<li><p>space (Rectangle): Rectangle représentant l’espace dans lequel les sommets du polygone seront tirés au hasard. (default to (1280 x 720))</p></li>
+<li><p>divisions (int, int): Nombre de divisions récursives verticales et horizontales de l’espace. (default to (2, 2))</p></li>
+</ul>
+<p>Attention ! Ces nombres devront être cohérents avec le nombre de polygones à générer. Par exemple, si le nombre de polygones à générer est égal à 16 alors si le nombre de divisions est nul, l’espace sera divisé en 16.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>Collection: Collection aléatoire de polygones.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-geometry.segment">
+<span id="geometry-segment-module"></span><h2>geometry.segment module<a class="headerlink" href="#module-geometry.segment" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="geometry.segment.Segment">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">geometry.segment.</span></span><span class="sig-name descname"><span class="pre">Segment</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ends</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.segment.Segment" title="Link to this definition"></a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Classe représentant un segment dans un espace à 2 dimensions.</p>
+<dl class="simple">
+<dt>Attributes:</dt><dd><p>ends (list[Vertice]): Extrémités du segment.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.segment.Segment.is_horizontal">
+<span class="sig-name descname"><span class="pre">is_horizontal</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometry.segment.Segment.is_horizontal" title="Link to this definition"></a></dt>
+<dd><p>Vérifie si le segment est horizontal.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True si le segment est horizontal, False sinon.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.segment.Segment.is_vertical">
+<span class="sig-name descname"><span class="pre">is_vertical</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometry.segment.Segment.is_vertical" title="Link to this definition"></a></dt>
+<dd><p>Vérifie si le segment est vertical.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>bool: True si le segment est vertical, False sinon.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.segment.Segment.length">
+<span class="sig-name descname"><span class="pre">length</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometry.segment.Segment.length" title="Link to this definition"></a></dt>
+<dd><p>Retourne la longueur du segment.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>float: Longueur du segment.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.segment.Segment.vector">
+<span class="sig-name descname"><span class="pre">vector</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#geometry.segment.Segment.vector" title="Link to this definition"></a></dt>
+<dd><p>Retourne le vecteur du segment.</p>
+<dl class="simple">
+<dt>Returns:</dt><dd><p>Vertice: Nouveau point représentant le vecteur du segment.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-geometry.vertice">
+<span id="geometry-vertice-module"></span><h2>geometry.vertice module<a class="headerlink" href="#module-geometry.vertice" title="Link to this heading"></a></h2>
+<p>Implémentation de l’objet Point dans un espace à deux dimensions.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="geometry.vertice.Vertice">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">geometry.vertice.</span></span><span class="sig-name descname"><span class="pre">Vertice</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.vertice.Vertice" title="Link to this definition"></a></dt>
+<dd><p>Bases : <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Classe représentant un point dans un espace à 2 dimensions.</p>
+<dl class="simple">
+<dt>Attributes:</dt><dd><p>x (float): Coordonnée x du point.
+y (float): Coordonnée y du point.</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.vertice.Vertice.angle">
+<span class="sig-name descname"><span class="pre">angle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">center</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.vertice.Vertice.angle" title="Link to this definition"></a></dt>
+<dd><p>Calcule l’angle du point avec un centre.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>center (Vertice):</dt><dd><p>Centre de référence. (par défaut à l’origine (0, 0))</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><dl class="simple">
+<dt>float:</dt><dd><p>Angle du point par rapport au centre.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.vertice.Vertice.distance_to">
+<span class="sig-name descname"><span class="pre">distance_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">other</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.vertice.Vertice.distance_to" title="Link to this definition"></a></dt>
+<dd><p>Retourne la distance euclidienne entre deux points.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>other (Vertice):</dt><dd><p>Autre point du segment. (par défaut à l’origine (0, 0))</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><dl class="simple">
+<dt>float:</dt><dd><p>Distance euclidienne entre les deux points.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="geometry.vertice.Vertice.random">
+<em class="property"><span class="pre">classmethod</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">random</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">space</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#geometry.vertice.Vertice.random" title="Link to this definition"></a></dt>
+<dd><p>Retourne un point tiré aléatoirement dans un espace.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><dl class="simple">
+<dt>space (Rectangle):</dt><dd><p>Espace dans lequel le point est tiré.</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><dl class="simple">
+<dt>Point:</dt><dd><p>Nouveau point aléatoire situé dans l’espace.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-geometry">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-geometry" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="modules.html" class="btn btn-neutral float-left" title="geometry" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="geometry.shapes.html" class="btn btn-neutral float-right" title="geometry.shapes package" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2024, Mourtaza Akil.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
