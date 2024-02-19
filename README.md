@@ -5,13 +5,32 @@ aux plus complexes.
 
 ## Installation
 
-Pour installer cette librairie, vous pouvez la cloner depuis Github. Ensuite, utilisez les
-scripts 'setup.sh' et 'setup.py' pour installer les dépendances nécessaires.
+Assurez-vous que Python est installé sur votre machine. Cette librairie requiert Python
+pour fonctionner.
 
-Depuis la racine du répertoire de la librairie :
+### Téléchargement
+
+Vous pouvez soit télécharger la librairie directement depuis ***Github***, soit la télécharger
+via la commande suivante :
 
 ```bash
-./setup.sh
+git clone https://github.com/Taza67/Geometry.git
+```
+
+### Mise en place
+
+Utilisez le script ```setup.sh``` pour installer la librairie.
+
+Par exemple, depuis la racine du répertoire de la librairie :
+
+```bash
+./scripts/setup.sh
+```
+
+Vous pouvez également exécuter la commande suivante à la racine du répertoire :
+
+```bash
+pip install .
 ```
 
 ## Utilisation

@@ -17,3 +17,6 @@ else
 	echo "pip n'est pas installé."
 	exit 1
 fi
+
+# On installe la librairie.
+pip install "$(dirname "$0")"/..
