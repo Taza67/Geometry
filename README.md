@@ -21,13 +21,13 @@ git clone https://github.com/Taza67/Geometry.git
 
 Utilisez le script ```setup.sh``` pour installer la librairie.
 
-Par exemple, depuis la racine du répertoire de la librairie :
+Par exemple, depuis la racine du projet :
 
 ```bash
 ./scripts/setup.sh
 ```
 
-Vous pouvez également exécuter la commande suivante à la racine du répertoire :
+Vous pouvez également exécuter la commande suivante à la racine du projet :
 
 ```bash
 pip install .
@@ -35,7 +35,7 @@ pip install .
 
 ## Utilisation
 
-Après l'installation, vous pouvez importer la librairie dans votre projet Python et utiliser
+Après l'installation, vous pouvez importer la librairie dans vos scripts Python et utiliser
 ses fonctions.
 
 ## Dépendances
